@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 data-testid="slackUserName">Emmanuel OGUNMOLA</h1>
+      <img
+        src="https://ca.slack-edge.com/T05FFAA91JP-U05R8EUKZ7U-1a6fbeffcb02-512"
+        alt="emanuolumide"
+        data-testid="slackDisplayImage"
+      />
+    </div>
+    <div class="details">
+      <div class="breaks">
+        <div>
+          <p class="tag">Current Day of the Week:</p>
+          <p data-testid="currentDayOfTheWeek" id="day">Day</p>
+        </div>
+        <div>
+          <p class="tag">Current UTC Time in MS:</p>
+          <p data-testid="currentUTCTime" id="time">Time</p>
+        </div>
+      </div>
+      <div class="breaks">
+        <div>
+          <p class="tag">Track:</p>
+          <p data-testid="myTrack" id="track">Frontend</p>
+        </div>
+        <div>
+          <p class="tag">GitHub Link:</p>
+          <a href="" data-testid="“githubURL”" id="github">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
