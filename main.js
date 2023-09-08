@@ -7,7 +7,7 @@ const today = currentDate.toLocaleString('en-GB', { weekday: 'long' });
 day.textContent = today;
 
 const updateTime = () => {
-  const utcTime = currentDate.getUTCMilliseconds();
+  const utcTime = new Date().getUTCMilliseconds();
   time.textContent = utcTime;
 };
 const setUpdatedtime = setInterval(updateTime, 1000);
